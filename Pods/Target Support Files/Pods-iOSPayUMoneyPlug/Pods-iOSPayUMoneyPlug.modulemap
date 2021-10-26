@@ -1,0 +1,6 @@
+framework module Pods_iOSPayUMoneyPlug {
+  umbrella header "Pods-iOSPayUMoneyPlug-umbrella.h"
+
+  export *
+  module * { export * }
+}

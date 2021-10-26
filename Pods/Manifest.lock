@@ -1,0 +1,28 @@
+PODS:
+  - CryptoSwift (0.13.1)
+  - PayUIndia-Custom-Browser (5.8.1)
+  - PayUmoney_CoreSDK (3.6):
+    - PayUIndia-Custom-Browser (~> 5.8.1)
+  - PayUmoney_PnP (2.4.0):
+    - PayUmoney_CoreSDK
+
+DEPENDENCIES:
+  - CryptoSwift
+  - PayUmoney_PnP
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CryptoSwift
+    - PayUIndia-Custom-Browser
+    - PayUmoney_CoreSDK
+    - PayUmoney_PnP
+
+SPEC CHECKSUMS:
+  CryptoSwift: ff68c35a53e03177d31aaa2c1e8b3e010aeed6cb
+  PayUIndia-Custom-Browser: 27dc0dc866f817dcd96e9ffca8b002827a0912b2
+  PayUmoney_CoreSDK: 5d40d15a49a447ae9c108c9c15df751945b11163
+  PayUmoney_PnP: 443926e98669ef836ba102b787478f13ef3e8f1a
+
+PODFILE CHECKSUM: 159a0fb901da278fc40d3cd175c2cc660a813229
+
+COCOAPODS: 1.5.3

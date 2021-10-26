@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08B5316674861DEB2EE1BBDE /* Pods_iOSPayUMoneyPlug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC9FE5AC9C98AC55F689473 /* Pods_iOSPayUMoneyPlug.framework */; };
+		520786B122290EAE004082E4 /* iOSPayUMoneyPlugUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520786B022290EAE004082E4 /* iOSPayUMoneyPlugUITests.swift */; };
+		524FDF922226650F00060891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524FDF912226650F00060891 /* AppDelegate.swift */; };
+		524FDF942226650F00060891 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524FDF932226650F00060891 /* HomeViewController.swift */; };
+		524FDF972226650F00060891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524FDF952226650F00060891 /* Main.storyboard */; };
+		524FDF992226651C00060891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524FDF982226651C00060891 /* Assets.xcassets */; };
+		524FDF9C2226651C00060891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524FDF9A2226651C00060891 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		520786B322290EAE004082E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 524FDF862226650E00060891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 524FDF8D2226650F00060891;
+			remoteInfo = iOSPayUMoneyPlug;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		520786AE22290EAE004082E4 /* iOSPayUMoneyPlugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSPayUMoneyPlugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		520786B022290EAE004082E4 /* iOSPayUMoneyPlugUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSPayUMoneyPlugUITests.swift; sourceTree = "<group>"; };
+		520786B222290EAE004082E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524FDF8E2226650F00060891 /* iOSPayUMoneyPlug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSPayUMoneyPlug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		524FDF912226650F00060891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		524FDF932226650F00060891 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		524FDF962226650F00060891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		524FDF982226651C00060891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		524FDF9B2226651C00060891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		524FDF9D2226651C00060891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC9FE5AC9C98AC55F689473 /* Pods_iOSPayUMoneyPlug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSPayUMoneyPlug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6BBD700931E54CC5275F2CF /* Pods-iOSPayUMoneyPlug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPayUMoneyPlug.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSPayUMoneyPlug/Pods-iOSPayUMoneyPlug.debug.xcconfig"; sourceTree = "<group>"; };
+		ACC19F66EB773B6D84D0F241 /* Pods-iOSPayUMoneyPlug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPayUMoneyPlug.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSPayUMoneyPlug/Pods-iOSPayUMoneyPlug.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		520786AB22290EAE004082E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524FDF8B2226650F00060891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B5316674861DEB2EE1BBDE /* Pods_iOSPayUMoneyPlug.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		520786AF22290EAE004082E4 /* iOSPayUMoneyPlugUITests */ = {
+			isa = PBXGroup;
+			children = (
+				520786B022290EAE004082E4 /* iOSPayUMoneyPlugUITests.swift */,
+				520786B222290EAE004082E4 /* Info.plist */,
+			);
+			path = iOSPayUMoneyPlugUITests;
+			sourceTree = "<group>";
+		};
+		524FDF852226650E00060891 = {
+			isa = PBXGroup;
+			children = (
+				524FDF902226650F00060891 /* iOSPayUMoneyPlug */,
+				520786AF22290EAE004082E4 /* iOSPayUMoneyPlugUITests */,
+				524FDF8F2226650F00060891 /* Products */,
+				B58F54E41AC11B5BA52C67C7 /* Pods */,
+				932446D2CE1C96087745ED8F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		524FDF8F2226650F00060891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				524FDF8E2226650F00060891 /* iOSPayUMoneyPlug.app */,
+				520786AE22290EAE004082E4 /* iOSPayUMoneyPlugUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		524FDF902226650F00060891 /* iOSPayUMoneyPlug */ = {
+			isa = PBXGroup;
+			children = (
+				524FDF912226650F00060891 /* AppDelegate.swift */,
+				524FDF932226650F00060891 /* HomeViewController.swift */,
+				524FDF952226650F00060891 /* Main.storyboard */,
+				524FDF982226651C00060891 /* Assets.xcassets */,
+				524FDF9A2226651C00060891 /* LaunchScreen.storyboard */,
+				524FDF9D2226651C00060891 /* Info.plist */,
+			);
+			path = iOSPayUMoneyPlug;
+			sourceTree = "<group>";
+		};
+		932446D2CE1C96087745ED8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BC9FE5AC9C98AC55F689473 /* Pods_iOSPayUMoneyPlug.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B58F54E41AC11B5BA52C67C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6BBD700931E54CC5275F2CF /* Pods-iOSPayUMoneyPlug.debug.xcconfig */,
+				ACC19F66EB773B6D84D0F241 /* Pods-iOSPayUMoneyPlug.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		520786AD22290EAE004082E4 /* iOSPayUMoneyPlugUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520786B722290EAE004082E4 /* Build configuration list for PBXNativeTarget "iOSPayUMoneyPlugUITests" */;
+			buildPhases = (
+				520786AA22290EAE004082E4 /* Sources */,
+				520786AB22290EAE004082E4 /* Frameworks */,
+				520786AC22290EAE004082E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				520786B422290EAE004082E4 /* PBXTargetDependency */,
+			);
+			name = iOSPayUMoneyPlugUITests;
+			productName = iOSPayUMoneyPlugUITests;
+			productReference = 520786AE22290EAE004082E4 /* iOSPayUMoneyPlugUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		524FDF8D2226650F00060891 /* iOSPayUMoneyPlug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524FDFA02226651C00060891 /* Build configuration list for PBXNativeTarget "iOSPayUMoneyPlug" */;
+			buildPhases = (
+				54A7A0A75A48CD1E2A530ADC /* [CP] Check Pods Manifest.lock */,
+				524FDF8A2226650F00060891 /* Sources */,
+				524FDF8B2226650F00060891 /* Frameworks */,
+				524FDF8C2226650F00060891 /* Resources */,
+				430ED53D8469181F66CCEFCC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSPayUMoneyPlug;
+			productName = iOSPayUMoneyPlug;
+			productReference = 524FDF8E2226650F00060891 /* iOSPayUMoneyPlug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		524FDF862226650E00060891 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Omni-Bridge";
+				TargetAttributes = {
+					520786AD22290EAE004082E4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 524FDF8D2226650F00060891;
+					};
+					524FDF8D2226650F00060891 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 524FDF892226650E00060891 /* Build configuration list for PBXProject "iOSPayUMoneyPlug" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 524FDF852226650E00060891;
+			productRefGroup = 524FDF8F2226650F00060891 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				524FDF8D2226650F00060891 /* iOSPayUMoneyPlug */,
+				520786AD22290EAE004082E4 /* iOSPayUMoneyPlugUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		520786AC22290EAE004082E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524FDF8C2226650F00060891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524FDF9C2226651C00060891 /* LaunchScreen.storyboard in Resources */,
+				524FDF992226651C00060891 /* Assets.xcassets in Resources */,
+				524FDF972226650F00060891 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		430ED53D8469181F66CCEFCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOSPayUMoneyPlug/Pods-iOSPayUMoneyPlug-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${PODS_ROOT}/PayUIndia-Custom-Browser/PayUCustomBrowser.framework",
+				"${PODS_ROOT}/PayUmoney_CoreSDK/CoreSDK/PayUMoneyCoreSDK.framework",
+				"${PODS_ROOT}/PayUmoney_PnP/PlugNPlay/PlugNPlay.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PayUCustomBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PayUMoneyCoreSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PlugNPlay.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSPayUMoneyPlug/Pods-iOSPayUMoneyPlug-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54A7A0A75A48CD1E2A530ADC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSPayUMoneyPlug-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		520786AA22290EAE004082E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520786B122290EAE004082E4 /* iOSPayUMoneyPlugUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524FDF8A2226650F00060891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524FDF942226650F00060891 /* HomeViewController.swift in Sources */,
+				524FDF922226650F00060891 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		520786B422290EAE004082E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 524FDF8D2226650F00060891 /* iOSPayUMoneyPlug */;
+			targetProxy = 520786B322290EAE004082E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		524FDF952226650F00060891 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				524FDF962226650F00060891 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		524FDF9A2226651C00060891 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				524FDF9B2226651C00060891 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		520786B522290EAE004082E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62YKTFE2C9;
+				INFOPLIST_FILE = iOSPayUMoneyPlugUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ob.-.iOSPayUMoneyPlugUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSPayUMoneyPlug;
+			};
+			name = Debug;
+		};
+		520786B622290EAE004082E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62YKTFE2C9;
+				INFOPLIST_FILE = iOSPayUMoneyPlugUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ob.-.iOSPayUMoneyPlugUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSPayUMoneyPlug;
+			};
+			name = Release;
+		};
+		524FDF9E2226651C00060891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		524FDF9F2226651C00060891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		524FDFA12226651C00060891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6BBD700931E54CC5275F2CF /* Pods-iOSPayUMoneyPlug.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62YKTFE2C9;
+				INFOPLIST_FILE = iOSPayUMoneyPlug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ob.-.iOSPayUMoneyPlug";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		524FDFA22226651C00060891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACC19F66EB773B6D84D0F241 /* Pods-iOSPayUMoneyPlug.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62YKTFE2C9;
+				INFOPLIST_FILE = iOSPayUMoneyPlug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ob.-.iOSPayUMoneyPlug";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		520786B722290EAE004082E4 /* Build configuration list for PBXNativeTarget "iOSPayUMoneyPlugUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520786B522290EAE004082E4 /* Debug */,
+				520786B622290EAE004082E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524FDF892226650E00060891 /* Build configuration list for PBXProject "iOSPayUMoneyPlug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524FDF9E2226651C00060891 /* Debug */,
+				524FDF9F2226651C00060891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524FDFA02226651C00060891 /* Build configuration list for PBXNativeTarget "iOSPayUMoneyPlug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524FDFA12226651C00060891 /* Debug */,
+				524FDFA22226651C00060891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 524FDF862226650E00060891 /* Project object */;
+}
